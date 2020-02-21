@@ -96,6 +96,7 @@ Let's write the migration that will make this happen.
 * Open a file, `db/migrate/03_create_songs.rb`
 * Write the following migration:
 
+
 ```ruby
 class CreateSongs < ActiveRecord::Migration[4.2]
   def change
